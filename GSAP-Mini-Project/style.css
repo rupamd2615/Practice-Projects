@@ -1,0 +1,114 @@
+@font-face {
+    font-family: machina;
+    src: url(./Assets/3856NeueMachina.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+} 
+
+nav h1 i{
+    rotate: 45deg;
+    scale: 1.25;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+nav h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    background-color: white;
+}
+
+.page{
+    /* background-color: red; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    padding: 30px 55px;
+}
+
+.page1{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 40%;
+}
+
+.page1 h1{
+    font-size: 35px;
+    line-height: 1.15;
+    font-family: machina;
+
+}
+
+.page1 p{
+    font-size: 10px;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.page1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 7px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.page2{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.page2 img{
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+
