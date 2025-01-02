@@ -14,6 +14,9 @@ html, body{
     width: 100%;
 }
 
+body{
+    overflow-x: hidden;
+}
 section{
     height: 100%;
     width: 100%;
@@ -156,12 +159,13 @@ nav button{
 
 .container{
     /* background-color: red; */
-    height: 86%;
+    min-height: 86vh;
     width: 100%;
     padding: 40px 120px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    /* gap: 50px; */
 }
 
 .elem{
