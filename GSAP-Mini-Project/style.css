@@ -111,4 +111,115 @@ nav button{
     right: 0%;
 }
 
+.bottom{
+    /* background-color: red; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 55px;
+    margin-top: 15px;
+}
 
+.bottom img{
+    /* background-color: red; */
+        float: left;
+        width:  110px;
+        height: 30px;
+        object-fit: cover;
+}
+
+.sec2 .services{
+    /* background-color: red; */
+    padding: 40px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-top: 30px; */
+    gap: 50px;
+}
+
+.services h3{
+    background-color: #BCD85F;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: machina;
+}
+
+.services p{
+    width: 60%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container{
+    /* background-color: red; */
+    height: 86%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 150px;
+    width: 45%;
+    border: 2px solid black;
+    border-radius:  20px;
+    /* background-color: red; */
+    box-shadow: 0px 6px 0px black;
+    padding: 20px;
+    display: flex;
+}
+
+.part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 45px;
+}
+
+.elem img{
+    height: 100%;
+}
+
+.part1 h2{
+    font-size: 20px;
+    font-family: machina;
+    background-color: #BCD85F;
+}
+
+.part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.part1 h4 i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.black{
+    background-color: black;
+}
+
+.black h2{
+    background-color: white;
+}
+
+.black h4{
+    color: white;
+}
+
+.black h4 i{
+    color: white;
+}
